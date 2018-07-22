@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 500px;
+	margin: 0 auto;
+}
+main{
+	width: 100%;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-bottom: 1px solid #ECECEC;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+
+
+}
+input{
+	border: 0;
+	border-bottom: 1px solid #DBDBDB;
+	width: 100%;
+}
+
+#button1{
+	width: 120px;
+	margin-top: 20px;
+	padding: 10px 6%;
+	background-color: #27A69B;
+	border: 1px solid #27A69B;
+	color: white;
+	border-radius:3px; 
+}
+#button2{
+	width: 140px;
+	margin-top: 20px;
+	padding: 10px 6%;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: white;
+
+}
+#naslov{
+	font-weight: 300;
+}
+::placeholder {
+    color: #D0D0D0;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #D0D0D0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #D0D0D0;
+}
+section{
+	padding: 5%;
+}
+section:first-child{
+	border-bottom:1px solid #ECECEC;
+}
+#paragrafi{
+	margin-bottom: 20px;
+}
+span{
+	float: right;
+	margin-right: 2%;
+	color: #FDA74E;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: white;
+    font-size: 18px;
+    transition: 0.2s;
+    border:1px solid #E3E3E3;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+ul li:hover {
+    background: #ddd;
+}

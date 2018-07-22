@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="main.css">
+		
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<main>
+		<section>
+		<form action="" id="prva">
+			<div>
+				<h3 id="naslov">Task List</h3>
+				<input type="text" placeholder="New Task" name="new_task" id="new_task">
+
+			</div>
+			<input type="button" value="ADD TASK" onclick="addElement()" id="button1">
+			
+		</form>
+		</section>
+		<section>
+			<form action="" id="druga">
+				<div id="paragrafi">
+					<h3>Tasks</h3>
+					<input type="text" placeholder="Filter tasks" name="filter_tasks" id="filter_tasks" onkeyup="filtriranje()">
+				</div>
+				<div id="slideContainer"></div>
+				<ul id="lista"></ul>
+				<input type="button" value="CLEAR TASKS" onclick="deleteAll()" id="button2">
+
+			</form>
+		</section>
+		</main>
+	<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
